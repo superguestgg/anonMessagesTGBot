@@ -7,8 +7,6 @@ db = RoomsYDBDatabase()
 
 def handler(bot, event):
     message = event['body']
-    #bot = telebot.TeleBot('1836713851:AAHnJhLnZX-aFlDlh5om8a1iPLIvXtbFxHI')
-    #bot.send_message(1265270129, message)
     dd = json.loads(message)
     #bot.send_message(1265270129, str(dd))
     #bot.send_message(1265270129, str(dd.keys()))
